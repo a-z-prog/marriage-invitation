@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-accent: "Cormorant Garamond", serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-wedding-gold: #C5A059;
+  --color-wedding-cream: #121212;
+  --color-wedding-rose: #1A1A1A;
+  --color-wedding-ink: #E0E0E0;
+  --color-divider: #2A2A2A;
+}
+
+@layer base {
+  body {
+    @apply bg-wedding-cream text-wedding-ink font-sans antialiased selection:bg-wedding-gold/30;
+  }
+}
+
+.editorial-heading {
+  @apply text-5xl md:text-[110px] leading-[0.9] italic font-normal font-serif;
+}
+
+.label-caps {
+  @apply text-[10px] md:text-[11px] tracking-[0.4em] uppercase font-sans font-semibold opacity-60;
+}
+
+.glass-card {
+  @apply bg-[#1A1A1A]/60 backdrop-blur-md border border-divider;
+}
+
+.circular-btn {
+  @apply w-28 h-28 md:w-32 md:h-32 rounded-full border border-wedding-gold/40 flex items-center justify-center transition-all duration-700 hover:bg-wedding-gold hover:text-black cursor-pointer;
+}
+
+.dark-gradient {
+  @apply bg-gradient-to-b from-transparent via-black/20 to-black/40;
+}
