@@ -118,7 +118,7 @@ export default function App() {
 
         {/* Navigation */}
         <nav className="relative z-10 flex justify-between items-center px-8 md:px-24 mb-8 md:mb-12">
-          <div className="label-caps !opacity-100 text-wedding-gold">Nikkah Mubararak</div>
+          <div className="label-caps !opacity-100 text-wedding-gold">Nikkah Mubarak</div>
           <div className="hidden md:flex gap-12 label-caps !font-light tracking-[0.2em]">
             <span className="cursor-pointer hover:text-wedding-gold transition-colors">Our Nikkah</span>
             <span className="cursor-pointer hover:text-wedding-gold transition-colors">Event Details</span>
