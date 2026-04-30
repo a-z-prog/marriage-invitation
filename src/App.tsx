@@ -18,7 +18,7 @@ import {
 import { useEffect, useState, useRef } from "react";
 
 // --- Constants ---
-const WEDDING_DATE = new Date("2026-06-26T10:00:00");
+const WEDDING_DATE = new Date("2026-07-24T10:00:00");
 const BRIDE_NAME = "Fardous";
 const GROOM_NAME = "Razin";
 
@@ -113,7 +113,7 @@ export default function App() {
       <section className="relative h-screen flex flex-col pt-8 md:pt-12 overflow-hidden bg-wedding-cream">
         {/* Background Decorative Number */}
         <div className="absolute -top-10 -left-10 text-[250px] md:text-[400px] font-serif font-bold text-wedding-rose z-0 opacity-20 select-none leading-none">
-          26
+          24
         </div>
 
         {/* Navigation */}
@@ -157,7 +157,7 @@ export default function App() {
                 <div className="space-y-4 md:space-y-6">
                   <div className="flex items-center gap-4">
                     <div className="w-6 md:w-8 h-px bg-wedding-gold opacity-30"></div>
-                    <div className="label-caps opacity-100 text-wedding-gold/80">Friday, 26 June</div>
+                    <div className="label-caps opacity-100 text-wedding-gold/80">Friday, 24 July</div>
                   </div>
                   <div className="flex items-center gap-4">
                     <div className="w-6 md:w-8 h-px bg-wedding-gold opacity-30"></div>
@@ -267,7 +267,7 @@ export default function App() {
         <SectionHeading title="Ijab Qabul" />
         <div className="max-w-4xl mx-auto px-6">
           <div className="bg-wedding-cream p-8 md:p-20 text-center border border-divider">
-            <div className="label-caps mb-6 md:mb-8 text-wedding-gold">26 June, 2026</div>
+            <div className="label-caps mb-6 md:mb-8 text-wedding-gold">24 July, 2026</div>
             <h3 className="editorial-heading text-3xl md:text-5xl mb-6 md:mb-8">Nikkah Ceremony</h3>
             <p className="italic text-wedding-ink/40 mb-10 md:mb-12 text-sm md:text-base">
               A private and modest gathering with close companions to witness our Ijab Qabul.
